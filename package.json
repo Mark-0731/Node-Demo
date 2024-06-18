@@ -1,0 +1,34 @@
+{
+  "name": "node_demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js --host 0.0.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aggregate_groupby_js": "^1.0.11",
+    "async": "^2.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "json": "^9.0.6",
+    "json2xls": "^0.1.2",
+    "jsonwebtoken": "^8.4.0",
+    "linqjs": "^1.0.1",
+    "multer": "^1.4.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "nodemailer": "^6.9.7",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^3.0.1",
+    "Promise": "^1.0.5",
+    "randomstring": "^1.1.5",
+    "read-excel-file": "^3.0.1",
+    "request": "^2.88.0",
+    "sequelize": "^4.42.0",
+    "shortid": "^2.2.14"
+  }
+}

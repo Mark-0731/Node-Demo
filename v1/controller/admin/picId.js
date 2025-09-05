@@ -1,6 +1,6 @@
 
 
-import { Pic } from "./../../../config/data";
+const { Pic } = require('../../../config/data');
 const jwt = require('jsonwebtoken')
 module.exports = {
     picid: function (req, res) {

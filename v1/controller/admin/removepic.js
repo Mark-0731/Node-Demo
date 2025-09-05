@@ -1,8 +1,5 @@
-const {
-    Pic,
-    User
-} = require('./../../../config/data')
-import jwt from 'jsonwebtoken'
+const { Pic, User } = require('../../../config/data');
+const jwt = require('jsonwebtoken');
 module.exports = {
     removepic: function (req, res) {
         const header = req.headers["authorization"];

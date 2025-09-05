@@ -3,7 +3,7 @@ const {
 	sequelize
 } = require('../../../config/data')
 const jwt = require('jsonwebtoken')
-import { appConfig } from './../../../config/appconfig'
+const { appConfig } = require('../../../config/appconfig');
 
 module.exports = {
 	login: function (req, res) {

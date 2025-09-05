@@ -13,6 +13,7 @@
     "aggregate_groupby_js": "^1.0.11",
     "async": "^2.6.1",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
     "express": "^4.16.4",
     "json": "^9.0.6",
     "json2xls": "^0.1.2",
